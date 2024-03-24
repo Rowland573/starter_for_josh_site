@@ -37,7 +37,7 @@
 </title>
 </head>
 <body>
-    <header class="container-fluid smallpage-bg">   <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid smallpage_bg">   <!-- div for the main image the stretches to the edge of the page- -->
         <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->

@@ -8,9 +8,17 @@ function load_my_scripts() {
 
   wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css' );
   wp_enqueue_style( 'test', get_stylesheet_directory_uri() . '/responsive.css' );
+  
 }
+
 add_action( 'wp_enqueue_scripts', 'load_my_scripts');
 ?>
+<?php
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'top-menu' ),
+) );
+?>
+
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"> 

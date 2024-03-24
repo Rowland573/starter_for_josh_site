@@ -39,7 +39,7 @@
 <body>
     <header class="container-fluid bg1">   <!-- div for the main image the stretches to the edge of the page- -->
         <div class="container">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
       

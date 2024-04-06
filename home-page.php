@@ -26,14 +26,19 @@
                   
                 <div class="col-md-4 text-center">
                 
-<?php $image = get_field('articleimage');?>
+                <?php
+$image = get_field('articleimage');
+?>
 <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+
 
 <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
 <p class="date" ><?php the_field('articledate'); ?></p>
 <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>
 <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                     </div>
+
+
                     <div class="col-md-4 text-center">
                       <img class="img-fluid" alt=“portait” src=" http://170.187.231.66/~mesh18/wp-content/themes/starter_for_josh_site/images/port2.jpg">
                         <h4 class="article-title">A PORTRAIT</h4>

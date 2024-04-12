@@ -37,8 +37,9 @@
 </title>
 </head>
 <body>
-    <header class="container-fluid smallpage-herobg">   <!-- div for the main image the stretches to the edge of the page- -->
-        <div class="container">
+    <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+        
+    <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
@@ -68,7 +69,7 @@
       </nav> 
    
         <div class="smallpage-tag"><!-- div that holds the content in the middle of the page-->
-                  <h1 class="smallpage-title"> Projects </h1><!--  the main tag line-->
+                  <h1 class="smallpage-title"> <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1></h1><!--  the main tag line-->
   </div>            
 </div><!-- container-->
 

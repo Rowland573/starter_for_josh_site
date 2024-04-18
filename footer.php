@@ -13,7 +13,7 @@ endif; ?>
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) : 
 endif; ?>
 
-                            <p>Terms and Conditions</p>
+                            <!-- <p>Terms and Conditions</p> -->
               </div><!-- row-->
                     </div><!-- container -->
                 </div><!-- container-fluid-->

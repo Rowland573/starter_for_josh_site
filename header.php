@@ -33,6 +33,7 @@
 ?>
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </title>
 </head>
